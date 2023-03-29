@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>avr64dd32-agri-iot-mplab-mcc</name>
+            <name>agri-iot-hackster</name>
+            <name>avr64dd32-agri-iot-hackster</name>
+            <name>avr64dd32-agri-iot-hackster</name>
+            <name>avr64dd32-agri-iot</name>
+            <name>avr64dd32-rn2xx3</name>
+            <creation-uuid>c4a23311-ee50-4ca6-826b-ffc61ad5ca99</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList/>
+            <confList>
+                <confElem>
+                    <name>free</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>pro</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>datarate</word>
+        </spellchecker-wordlist>
+    </configuration>
+</project>

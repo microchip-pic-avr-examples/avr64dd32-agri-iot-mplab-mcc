@@ -4,10 +4,10 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr64dd32-agri-iot-mplab-mcc",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Agricultural IoT with the AVR64DD32 and the RN2xx3 LoRa Module",
         "projectName": "avr64dd32-agri-iot-mplab-mcc",
-        "shortDescription": "Creating an Agricultural IoT Sensor Node with AVR DD and RN2903 LoRa Module",
+        "shortDescription": "Create an Agricultural IoT Sensor Node with AVR DD and RN2xx3 LoRa Module",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=6.0.0"
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^2.1.152"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=5.4.11"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,21 @@
             }
         },
         "author": "Toby Sinkinson",
-        "peripherals": [],
-        "keywords": [],
+        "peripherals": [
+            "ADC",
+            "USART",
+            "TMR",
+            "EVSYS",
+            "SLPCTRL"
+        ],
+        "keywords": [
+            "LoRa",
+            "MikroE Click Board",
+            "Data Visualizer",
+            "Curiosity Nano",
+            "Melody",
+            "IoT"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
