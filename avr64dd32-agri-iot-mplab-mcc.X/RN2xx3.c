@@ -6,7 +6,7 @@
 #include <util/delay.h>
 
 /* Comment out to suppress debug print statements and conserve power */
-#define DEBUGGING
+//#define DEBUGGING
 
 //Size of Ring Buffer
 #define RN2xx3_BUFFER_SIZE 255
