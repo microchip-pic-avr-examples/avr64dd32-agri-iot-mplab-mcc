@@ -14,10 +14,10 @@ This demo uses the RN2903A module which operates on the 915 MHz frequency band a
   
 ## Software Used
 - [MPLAB® X IDE 6.0.0](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_avrdd&utm_content=avr64dd32-agri-iot-mplab-mcc-github) or newer
-- [MPLAB® XC8 2.40](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers?utm_source=Hackster&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_avrdd&utm_content=agri-iot-dd-hackster) or a newer compiler
-- [MPLAB® Code Configurator Melody](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_avrdd&utm_content=avr64dd32-agri-iot-mplab-mcc-github) v5.4.11 or newer
+- [MPLAB XC8 Compiler 2.40](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers?utm_source=Hackster&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_avrdd&utm_content=agri-iot-dd-hackster) or a newer compiler
+- [MPLAB Code Configurator Melody](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_avrdd&utm_content=avr64dd32-agri-iot-mplab-mcc-github) v5.4.11 or newer
 - [AVR-Dx Series Device Pack](https://packs.download.microchip.com/?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_avrdd&utm_content=avr64dd32-agri-iot-mplab-mcc-github) v2.1.152 or newer
-- [MPLAB® Data Visualizer](https://www.microchip.com/en-us/tools-resources/debug/mplab-data-visualizer?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_avrdd&utm_content=avr64dd32-agri-iot-mplab-mcc-github)
+- [MPLAB Data Visualizer](https://www.microchip.com/en-us/tools-resources/debug/mplab-data-visualizer?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_avrdd&utm_content=avr64dd32-agri-iot-mplab-mcc-github)
 
 ## Hardware Used
 -  [AVR64DD32 CNano](https://www.microchipdirect.com/dev-tools/EV72Y42A?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_MMTCha_avrdd&utm_content=avr64dd32-agri-iot-mplab-mcc-github)
@@ -31,7 +31,7 @@ This demo uses the RN2903A module which operates on the 915 MHz frequency band a
 ## Setup - End Node Hardware
 Add the components to the Nano Adapter board. 
 
-Place the LR2 Click on MikroBUS™ 2 and the Weather Click on MikroBUS™ 1.  
+Place the LR2 Click on MikroBUS™ 2 and the Weather Click on MikroBUS 1.  
 
 Connect the moisture sensor leads as shown in Figure 1.  
 
@@ -42,27 +42,22 @@ Lastly, add a jumper wire between (PA1) and PD1 to allow the resetting of the LR
 | VCC - Red wire from Moisture Sensor | VCC |
 | GND - Black wire from Moisture Sensor | GND |
 | AOUT - Yellow wire from Moisture Sensor | PD2 |
-| (PA1) - Place a jumber between | PD1 |
+| (PA1) - Place a jumper between | PD1 |
 
 
 ![Hardware Setup](images/hardware-setup-2.png)
 
 *Figure 1. Hardware Setup*
 
-
-
-
-
-
 ## Setup - Software
 ### End Node Environment Setup
-- Download, install and open MPLABX IDE
-- Download and install the XC8 C-Compiler
+- Download, install and open MPLAB X IDE
+- Download and install the XC8 C Compiler
 - Open the 'avr64dd32-agri-iot-mplab-mcc.X' project as shown in Figure 2.
 
-![Open Project in MPLABX](images/open-project-mplab.png)
+![Open Project in MPLAB X](images/open-project-mplab.png)
 
-*Figure 2. Open the Project in MPLABX*
+*Figure 2. Open the Project in MPLAB X*
 
 Once the project has opened, begin by calibrating the sensors.
 #### Calibrate the Sensors
