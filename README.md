@@ -3,7 +3,8 @@
 # Agricultural IoT with the AVR64DD32 and the RN2xx3 LoRa® Module
 This example shows how the AVR64DD32 can be used to create a LoRaWAN end node that monitors temperature, humidity, barometric pressure, and soil moisture and transmits that data every three minutes to an application via The Things Network (TTN).  The node can be placed anywhere between ten meters and five kilometers from a LoRaWAN gateway in urban environments, but the range is wider for suburban locations. The design demonstrates how an end node, even at long range, can be configured to consume very low power/have long battery life, while securely moving valuable data.  This design can be scaled easily to enable the capture of soil variability data by placing additional nodes throughout an agricultural plot without the need to add additional gateways or infrastructure.
 
-This demo uses the RN2903A module which operates on the 915 MHz frequency band and is suitable for US and Australia based projects, but the project is easily adapted to work in other regions by selecting an alternate Click board™ and gateway for your region.
+This demo uses the RN2903A module which operates on the 915 MHz frequency band and is suitable for US and Australia based projects, but the project is easily adapted to work in other regions by selecting an alternate Click board™ and gateway for your region. 
+
 ## Related Documentation
 - [AVR64DD32 Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/AVR64DD32-28-Prelim-DataSheet-DS40002315B.pdf)
 - [AVD64DD32 Curiosity Nano Hardware User Guide](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/UserGuides/AVR64DD32CNANO-Prel-HW-UserGuide-DS50003323.pdf)
